@@ -13,7 +13,7 @@ for i in 1...5 {
     print()
 }
 var a = 0
-for i in 1...5 {
+for i in 1..<5 {
     a = 5 - i
     for j in 1...a {
         print("🌟", terminator: "")
