@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		020AE699305D7A6900CF97B2 /* IMA-week3-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMA-week3-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B261E230655949005298BE /* ima-week3-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ima-week3-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		020AE69B305D7A6900CF97B2 /* IMA-week3-demo */ = {
+		02B261E430655949005298BE /* ima-week3-demo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "IMA-week3-demo";
+			path = "ima-week3-demo";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		020AE696305D7A6900CF97B2 /* Frameworks */ = {
+		02B261DF30655949005298BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020AE690305D7A6900CF97B2 = {
+		02B261D930655949005298BE = {
 			isa = PBXGroup;
 			children = (
-				020AE69B305D7A6900CF97B2 /* IMA-week3-demo */,
-				020AE69A305D7A6900CF97B2 /* Products */,
+				02B261E430655949005298BE /* ima-week3-demo */,
+				02B261E330655949005298BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		020AE69A305D7A6900CF97B2 /* Products */ = {
+		02B261E330655949005298BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				020AE699305D7A6900CF97B2 /* IMA-week3-demo.app */,
+				02B261E230655949005298BE /* ima-week3-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		020AE698305D7A6900CF97B2 /* IMA-week3-demo */ = {
+		02B261E130655949005298BE /* ima-week3-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 020AE6A4305D7A6B00CF97B2 /* Build configuration list for PBXNativeTarget "IMA-week3-demo" */;
+			buildConfigurationList = 02B261ED3065594A005298BE /* Build configuration list for PBXNativeTarget "ima-week3-demo" */;
 			buildPhases = (
-				020AE695305D7A6900CF97B2 /* Sources */,
-				020AE696305D7A6900CF97B2 /* Frameworks */,
-				020AE697305D7A6900CF97B2 /* Resources */,
+				02B261DE30655949005298BE /* Sources */,
+				02B261DF30655949005298BE /* Frameworks */,
+				02B261E030655949005298BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				020AE69B305D7A6900CF97B2 /* IMA-week3-demo */,
+				02B261E430655949005298BE /* ima-week3-demo */,
 			);
-			name = "IMA-week3-demo";
+			name = "ima-week3-demo";
 			packageProductDependencies = (
 			);
-			productName = "IMA-week3-demo";
-			productReference = 020AE699305D7A6900CF97B2 /* IMA-week3-demo.app */;
+			productName = "ima-week3-demo";
+			productReference = 02B261E230655949005298BE /* ima-week3-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		020AE691305D7A6900CF97B2 /* Project object */ = {
+		02B261DA30655949005298BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					020AE698305D7A6900CF97B2 = {
+					02B261E130655949005298BE = {
 						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
-			buildConfigurationList = 020AE694305D7A6900CF97B2 /* Build configuration list for PBXProject "IMA-week3-demo" */;
+			buildConfigurationList = 02B261DD30655949005298BE /* Build configuration list for PBXProject "ima-week3-demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 020AE690305D7A6900CF97B2;
+			mainGroup = 02B261D930655949005298BE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 020AE69A305D7A6900CF97B2 /* Products */;
+			productRefGroup = 02B261E330655949005298BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				020AE698305D7A6900CF97B2 /* IMA-week3-demo */,
+				02B261E130655949005298BE /* ima-week3-demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		020AE697305D7A6900CF97B2 /* Resources */ = {
+		02B261E030655949005298BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		020AE695305D7A6900CF97B2 /* Sources */ = {
+		02B261DE30655949005298BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		020AE6A2305D7A6B00CF97B2 /* Debug */ = {
+		02B261EB3065594A005298BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,16 +178,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		020AE6A3305D7A6B00CF97B2 /* Release */ = {
+		02B261EC3065594A005298BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,14 +236,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		020AE6A5305D7A6B00CF97B2 /* Debug */ = {
+		02B261EE3065594A005298BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -249,43 +254,31 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 784W2U68W6;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.IMA-week3-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.ima-week3-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		020AE6A6305D7A6B00CF97B2 /* Release */ = {
+		02B261EF3065594A005298BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,64 +286,52 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 784W2U68W6;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.IMA-week3-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.ima-week3-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		020AE694305D7A6900CF97B2 /* Build configuration list for PBXProject "IMA-week3-demo" */ = {
+		02B261DD30655949005298BE /* Build configuration list for PBXProject "ima-week3-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				020AE6A2305D7A6B00CF97B2 /* Debug */,
-				020AE6A3305D7A6B00CF97B2 /* Release */,
+				02B261EB3065594A005298BE /* Debug */,
+				02B261EC3065594A005298BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		020AE6A4305D7A6B00CF97B2 /* Build configuration list for PBXNativeTarget "IMA-week3-demo" */ = {
+		02B261ED3065594A005298BE /* Build configuration list for PBXNativeTarget "ima-week3-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				020AE6A5305D7A6B00CF97B2 /* Debug */,
-				020AE6A6305D7A6B00CF97B2 /* Release */,
+				02B261EE3065594A005298BE /* Debug */,
+				02B261EF3065594A005298BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 020AE691305D7A6900CF97B2 /* Project object */;
+	rootObject = 02B261DA30655949005298BE /* Project object */;
 }
