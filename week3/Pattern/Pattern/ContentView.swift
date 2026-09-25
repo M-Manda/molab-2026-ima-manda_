@@ -94,7 +94,7 @@ struct ContentView: View {
                     }
                 }
                 .frame(height: 100)
-                .navigationTitle("Select a Student")
+                .navigationTitle("Select a Pattern")
                 if selectedPattern == "10print \\ /" {
                     Canvas10print(lineWidth: lineWidth)
                         .id(drawCount)
