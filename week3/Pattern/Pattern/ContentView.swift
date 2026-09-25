@@ -103,7 +103,9 @@ struct ContentView: View {
                     Canvas10print__(lineWidth: lineWidth)
                         .id(drawCount)
                 }
-                Slider(value: $lineWidth, in: 1...30)
+                Section("Slide to choose the width of the line"){
+                    Slider(value: $lineWidth, in: 1...30)
+                }
                 Button("Again") {
                     drawCount += 1
                 }
