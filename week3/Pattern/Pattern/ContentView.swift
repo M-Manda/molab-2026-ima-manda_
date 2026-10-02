@@ -155,3 +155,4 @@ func randomSlash__(_ p: CGPoint) -> Path {
 
 // Canvas10print is based on https://github.com/molab-itp/03-Canvas-Explore
 // sider was from Page7 of https://github.com/molab-itp/03-ImageUiDemo-1-symbols
+// Add data structure to keep the pattern
