@@ -82,6 +82,7 @@ struct SlidesAudioView: View {
             audioDJ.stop()
         }
     }
+//    gogoled how to fade images
     func previousItemAction() {
         withAnimation(.easeInOut(duration: audioDJ.fadeTime)) {
             slideIndex = (slideIndex - 1 + slides.count) % slides.count
