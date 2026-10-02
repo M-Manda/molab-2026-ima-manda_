@@ -62,7 +62,7 @@ struct FallingLeavesView: View {
                         }
 
                         for leaf in fallingLeaves {
-                            let path = leaf.path.offsetBy(dx: 0, dy: leaf.drop) // googled how to change positions of items
+                            let path = leaf.path.offsetBy(dx: 0, dy: leaf.drop) // Asked AI how to move down the leaves
                             let style = StrokeStyle(lineWidth: 8, lineCap: .round)
                             context.stroke(path, with: .color(colorSpecs[leaf.colorPick]), style: style)
                         }
