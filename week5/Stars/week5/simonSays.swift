@@ -108,7 +108,7 @@ struct SimonCircle: View {
         }
     }
 }
-// button us from 05-Heart-Shapes
+// button is from 05-Heart-Shapes
 struct ShapesButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -147,3 +147,5 @@ struct PlayResetButton: View {
 #Preview {
     SimonSays()
 }
+
+// There's graph library for swiftui
