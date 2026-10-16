@@ -7,4 +7,7 @@
   - [yes] able to build and run example apps own iPhone
   - [yes] installed Xcode 27
   - [yes] watched at least one WWDC video
+ 
+
+
 I need to add gitignore to my git repository
