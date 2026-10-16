@@ -149,3 +149,7 @@ struct PlayResetButton: View {
 }
 
 // There's graph library for swiftui
+
+//UU ID For example: "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD"
+// Object observable
+// codable - it can be incoded and decoded - you don't have to do this
