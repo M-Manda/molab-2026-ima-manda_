@@ -7,7 +7,8 @@
   - [yes] able to build and run example apps own iPhone
   - [yes] installed Xcode 27
   - [yes] watched at least one WWDC video
- 
+ - [ ] Upload profile photo to HOS-Lobby app
+
 # Week 1
 Python background helps a lot, but new language is always a struggle. I did 100 days Swift from days 1 to 7. It was pretty straight forward. I spent around 30 minutes to an hour each day. 
 https://github.com/M-Manda/molab-2026-ima-manda_/tree/main/week1/MyPlayground1.playground/Pages
