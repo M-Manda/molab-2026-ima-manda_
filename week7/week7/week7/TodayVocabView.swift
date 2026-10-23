@@ -145,7 +145,7 @@ struct TodayVocabView: View {
     func applyProcessing() {
         let inputKeys = currentFilter.inputKeys
 
-        // Only Sepia has an intensity. Vintage skips this line. I removed Instafilter's radius and scale lines, since neither filter uses them.
+        // Only Sepia has an intensity. Vintage skips this line.
         if inputKeys.contains(kCIInputIntensityKey) {
             currentFilter.setValue(
                 filterIntensity,
