@@ -14,6 +14,7 @@ class MarkupViewController: UIViewController {
     let image: UIImage // the photo to draw on
     var paperViewController: PaperMarkupViewController? // kept so the + button and Done can use it
     var toolPicker: PKToolPicker? // kept so it isn't thrown away
+    var canvasBounds: CGRect = .zero // remembered so Done knows the canvas size
 
     let featureSet: FeatureSet = {
         var featureSet: FeatureSet = .latest
@@ -48,6 +49,7 @@ class MarkupViewController: UIViewController {
         let width = view.bounds.width
         let height = width * image.size.height / image.size.width
         let canvasBounds = CGRect(x: 0, y: 0, width: width, height: height)
+        self.canvasBounds = canvasBounds
 
         let markupModel = PaperMarkup(bounds: canvasBounds)
         let paperViewController = PaperMarkupViewController(markup: markupModel, supportedFeatureSet: featureSet)
@@ -101,12 +103,15 @@ class MarkupEditorModel {
     weak var controller: MarkupViewController?
 
     func finishedImage(photo: UIImage) async -> UIImage {
-        guard let paperViewController = controller?.paperViewController,
+        guard let controller,
+              let paperViewController = controller.paperViewController,
               let cgPhoto = photo.cgImage else { return photo }
 
         guard let markupModel = paperViewController.markup else { return photo }
 
-        let size = CGSize(width: cgPhoto.width, height: cgPhoto.height)
+        let photoWidth = CGFloat(cgPhoto.width) // W
+        let photoHeight = CGFloat(cgPhoto.height) // H
+        let canvasBounds = controller.canvasBounds // w
 
         guard let context = CGContext(data: nil,
                                       width: cgPhoto.width,
@@ -117,11 +122,16 @@ class MarkupEditorModel {
                                       bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue)
         else { return photo }
 
-        let frame = CGRect(origin: .zero, size: size)
+        // the photo, at full size
+        context.draw(cgPhoto, in: CGRect(x: 0, y: 0, width: photoWidth, height: photoHeight))
 
-        context.draw(cgPhoto, in: frame)
+        // turn the context into canvas coordinates
+        let s = photoWidth / canvasBounds.width // enlargement
+        context.translateBy(x: 0, y: photoHeight) // start measuring from the top
+        context.scaleBy(x: s, y: -s) // enlarge, and flip y so it points down
 
-        await markupModel.draw(in: context, frame: frame)
+        // the drawing, in its own canvas size. The context does the enlarging and flipping
+        await markupModel.draw(in: context, frame: canvasBounds)
 
         guard let result = context.makeImage() else { return photo }
         return UIImage(cgImage: result)

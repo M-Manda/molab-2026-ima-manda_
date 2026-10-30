@@ -50,11 +50,9 @@ class VocabDocument {
         }
     }
 
-    // save the caption and location for a day
-    func saveText(caption: String, location: String, showTime: Bool, date: Date) {
+    // save whether the time is shown for a day
+    func saveShowTime(_ showTime: Bool, date: Date) {
         if var entry = model.findEntry(date: date) {
-            entry.caption = caption
-            entry.location = location
             entry.showTime = showTime
             updateItem(item: entry)
         }

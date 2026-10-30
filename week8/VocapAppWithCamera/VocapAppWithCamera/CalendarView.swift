@@ -26,7 +26,6 @@ struct CalendarView: View {
                 pickedImage
                     .resizable()
                     .scaledToFit()
-                    .overlay { dayLabels() }
                     .overlay(alignment: .bottomTrailing) { timeLabel() }
                     .frame(height: 400)
             } else {
@@ -42,19 +41,6 @@ struct CalendarView: View {
             Spacer()
         }
         .padding()
-    }
-
-    func dayLabels() -> some View {
-        VStack {
-            if let entry = document.model.findEntry(date: Date()) {
-                Text(entry.caption)
-                Text(entry.location)
-            }
-        }
-        .font(.title2)
-        .bold()
-        .foregroundStyle(.white)
-        .shadow(radius: 3)
     }
 
     @ViewBuilder

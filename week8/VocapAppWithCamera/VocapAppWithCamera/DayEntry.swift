@@ -13,7 +13,5 @@ struct DayEntry: Identifiable, Codable {
     var word: String = "" // the vocab word for that day
     var imageData: Data? = nil // the photo's raw bytes (original)
     var filteredData: Data? = nil // the photo after a filter, nil = no filter saved
-    var caption: String = ""
-    var location: String = ""
     var showTime: Bool = true
 }
