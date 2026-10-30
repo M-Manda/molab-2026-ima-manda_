@@ -25,7 +25,7 @@ class MarkupViewController: UIViewController {
         return featureSet
     }()
 
-    // IKit class needs these to be created with a photo
+    // UIKit class needs these to be created with a photo
     init(image: UIImage) {
         self.image = image
         super.init(nibName: nil, bundle: nil)
