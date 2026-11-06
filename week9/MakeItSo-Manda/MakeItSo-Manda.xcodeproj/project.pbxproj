@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		022474DC309D8F75004194E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 022474C6309D8F73004194E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022474CD309D8F73004194E5;
+			remoteInfo = "MakeItSo-Manda";
+		};
+		022474E6309D8F75004194E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 022474C6309D8F73004194E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022474CD309D8F73004194E5;
+			remoteInfo = "MakeItSo-Manda";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022474CE309D8F73004194E5 /* MakeItSo-Manda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MakeItSo-Manda.app"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-Manda.app"; sourceTree = "<absolute>"; };
+		022474DB309D8F75004194E5 /* MakeItSo-MandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MakeItSo-MandaTests.xctest"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-Manda.app/PlugIns/MakeItSo-MandaTests.xctest"; sourceTree = "<absolute>"; };
+		022474E5309D8F75004194E5 /* MakeItSo-MandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MakeItSo-MandaUITests.xctest"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-MandaUITests-Runner.app/PlugIns/MakeItSo-MandaUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		022474D0309D8F73004194E5 /* MakeItSo-Manda */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MakeItSo-Manda";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		022474CB309D8F73004194E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		022474D8309D8F75004194E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		022474E2309D8F75004194E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022474C5309D8F73004194E5 = {
+			isa = PBXGroup;
+			children = (
+				022474D0309D8F73004194E5 /* MakeItSo-Manda */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		022474CD309D8F73004194E5 /* MakeItSo-Manda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022474ED309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-Manda" */;
+			buildPhases = (
+				022474CA309D8F73004194E5 /* Sources */,
+				022474CB309D8F73004194E5 /* Frameworks */,
+				022474CC309D8F73004194E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				022474D0309D8F73004194E5 /* MakeItSo-Manda */,
+			);
+			name = "MakeItSo-Manda";
+			productName = "MakeItSo-Manda";
+			productReference = 022474CE309D8F73004194E5 /* MakeItSo-Manda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		022474DA309D8F75004194E5 /* MakeItSo-MandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022474F0309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-MandaTests" */;
+			buildPhases = (
+				022474D7309D8F75004194E5 /* Sources */,
+				022474D8309D8F75004194E5 /* Frameworks */,
+				022474D9309D8F75004194E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				022474DD309D8F75004194E5 /* PBXTargetDependency */,
+			);
+			name = "MakeItSo-MandaTests";
+			productName = "MakeItSo-MandaTests";
+			productReference = 022474DB309D8F75004194E5 /* MakeItSo-MandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		022474E4309D8F75004194E5 /* MakeItSo-MandaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022474F3309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-MandaUITests" */;
+			buildPhases = (
+				022474E1309D8F75004194E5 /* Sources */,
+				022474E2309D8F75004194E5 /* Frameworks */,
+				022474E3309D8F75004194E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				022474E7309D8F75004194E5 /* PBXTargetDependency */,
+			);
+			name = "MakeItSo-MandaUITests";
+			productName = "MakeItSo-MandaUITests";
+			productReference = 022474E5309D8F75004194E5 /* MakeItSo-MandaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022474C6309D8F73004194E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					022474CD309D8F73004194E5 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					022474DA309D8F75004194E5 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 022474CD309D8F73004194E5;
+					};
+					022474E4309D8F75004194E5 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 022474CD309D8F73004194E5;
+					};
+				};
+			};
+			buildConfigurationList = 022474C9309D8F73004194E5 /* Build configuration list for PBXProject "MakeItSo-Manda" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 022474C5309D8F73004194E5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 022474C5309D8F73004194E5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022474CD309D8F73004194E5 /* MakeItSo-Manda */,
+				022474DA309D8F75004194E5 /* MakeItSo-MandaTests */,
+				022474E4309D8F75004194E5 /* MakeItSo-MandaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		022474CC309D8F73004194E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		022474D9309D8F75004194E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		022474E3309D8F75004194E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022474CA309D8F73004194E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		022474D7309D8F75004194E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		022474E1309D8F75004194E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		022474DD309D8F75004194E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 022474CD309D8F73004194E5 /* MakeItSo-Manda */;
+			targetProxy = 022474DC309D8F75004194E5 /* PBXContainerItemProxy */;
+		};
+		022474E7309D8F75004194E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 022474CD309D8F73004194E5 /* MakeItSo-Manda */;
+			targetProxy = 022474E6309D8F75004194E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		022474EB309D8F75004194E5 /* Debug configuration for PBXProject "MakeItSo-Manda" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		022474EC309D8F75004194E5 /* Release configuration for PBXProject "MakeItSo-Manda" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022474EE309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-Manda" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-Manda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		022474EF309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-Manda" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-Manda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		022474F1309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-MandaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-MandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeItSo-Manda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeItSo-Manda";
+			};
+			name = Debug;
+		};
+		022474F2309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-MandaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-MandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeItSo-Manda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeItSo-Manda";
+			};
+			name = Release;
+		};
+		022474F4309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-MandaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-MandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MakeItSo-Manda";
+			};
+			name = Debug;
+		};
+		022474F5309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-MandaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.MakeItSo-MandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MakeItSo-Manda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022474C9309D8F73004194E5 /* Build configuration list for PBXProject "MakeItSo-Manda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022474EB309D8F75004194E5 /* Debug configuration for PBXProject "MakeItSo-Manda" */,
+				022474EC309D8F75004194E5 /* Release configuration for PBXProject "MakeItSo-Manda" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		022474ED309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-Manda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022474EE309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-Manda" */,
+				022474EF309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-Manda" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		022474F0309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-MandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022474F1309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-MandaTests" */,
+				022474F2309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-MandaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		022474F3309D8F75004194E5 /* Build configuration list for PBXNativeTarget "MakeItSo-MandaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022474F4309D8F75004194E5 /* Debug configuration for PBXNativeTarget "MakeItSo-MandaUITests" */,
+				022474F5309D8F75004194E5 /* Release configuration for PBXNativeTarget "MakeItSo-MandaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022474C6309D8F73004194E5 /* Project object */;
+	validationLevel = 1;
+}
