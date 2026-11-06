@@ -28,7 +28,8 @@ Each day the app gives you a new vocabulary word. You add a picture or photo tha
 - Sign in and keep your own entries
 - If you choose to share, other users can see your entries
 
-### Add widgets
+### Voice recorder
+### Add widgetss
 ### Traditional mongolilan script
 
 ## Built With
