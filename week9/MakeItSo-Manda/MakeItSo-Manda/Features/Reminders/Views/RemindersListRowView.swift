@@ -2,39 +2,39 @@
 //  RemindersListRowView.swift
 //  MakeItSo-Manda
 //
-//  Created by uurdmandakh munkhbayar on 2026.11.06.
+//  Created by uurdmandakh munkhbayar on 2026.11.05.
 //
 
 import SwiftUI
 
 struct RemindersListRowView: View {
-  @Binding
-  var reminder: Reminder
+    @Binding
+    var reminder: Reminder
 
-  var body: some View {
-    HStack {
-      Toggle(isOn: $reminder.isCompleted) { /* no label, on purpose */}
-        .toggleStyle(.reminder)
-      Text(reminder.title)
+    var body: some View {
+        HStack {
+            Toggle(isOn: $reminder.isCompleted) { /* no label, on purpose */  }
+                .toggleStyle(.reminder)
+            Text(reminder.title)
+        }
     }
-  }
 }
 
 struct RemindersListRowView_Previews: PreviewProvider {
-  struct Container: View {
-    @State var reminder = Reminder.samples[0]
-    var body: some View {
-      List {
-        RemindersListRowView(reminder: $reminder)
-      }
+    struct Container: View {
+        @State var reminder = Reminder.samples[0]
+        var body: some View {
+            List {
+                RemindersListRowView(reminder: $reminder)
+            }
+        }
     }
-  }
 
-  static var previews: some View {
-    NavigationStack {
-      Container()
-        .listStyle(.plain)
-        .navigationTitle("Reminder")
+    static var previews: some View {
+        NavigationStack {
+            Container()
+                .listStyle(.plain)
+                .navigationTitle("Reminder")
+        }
     }
-  }
 }

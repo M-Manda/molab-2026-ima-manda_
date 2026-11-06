@@ -2,24 +2,40 @@
 //  RemindersListViewModel.swift
 //  MakeItSo-Manda
 //
-//  Created by uurdmandakh munkhbayar on 2026.11.06.
+//  Created by uurdmandakh munkhbayar on 2026.11.05.
 //
 
-import Foundation
 import Combine
+import Foundation
 
 class RemindersListViewModel: ObservableObject {
-  @Published
-  var reminders = Reminder.samples
+    @Published
+    var reminders = [Reminder]()
 
-  func addReminder(_ reminder: Reminder) {
-    reminders.append(reminder)
-  }
+    @Published
+    var errorMessage: String?
 
-  func toggleCompleted(_ reminder: Reminder) {
-    if let index = reminders.firstIndex(where: { $0.id == reminder.id} ) {
-      reminders[index].isCompleted.toggle()
+    private var remindersRepository: RemindersRepository = RemindersRepository()
+
+    init() {
+        remindersRepository
+            .$reminders
+            .assign(to: &$reminders)
     }
-  }
-}
 
+    func addReminder(_ reminder: Reminder) {
+        do {
+            try remindersRepository.addReminder(reminder)
+            errorMessage = nil
+        } catch {
+            print(error)
+            errorMessage = error.localizedDescription
+        }
+    }
+
+    func toggleCompleted(_ reminder: Reminder) {
+        if let index = reminders.firstIndex(where: { $0.id == reminder.id }) {
+            reminders[index].isCompleted.toggle()
+        }
+    }
+}
