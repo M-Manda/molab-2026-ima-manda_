@@ -6,6 +6,12 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02247511309DEF1D004194E5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02247510309DEF1D004194E5 /* FirebaseAnalytics */; };
+		02247513309DEF1D004194E5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02247512309DEF1D004194E5 /* FirebaseAuth */; };
+		02247515309DEF1D004194E5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 02247514309DEF1D004194E5 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		022474DC309D8F75004194E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -41,6 +47,9 @@
 		022474CB309D8F73004194E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				02247511309DEF1D004194E5 /* FirebaseAnalytics in Frameworks */,
+				02247513309DEF1D004194E5 /* FirebaseAuth in Frameworks */,
+				02247515309DEF1D004194E5 /* FirebaseFirestore in Frameworks */,
 			);
 		};
 		022474D8309D8F75004194E5 /* Frameworks */ = {
@@ -80,6 +89,11 @@
 				022474D0309D8F73004194E5 /* MakeItSo-Manda */,
 			);
 			name = "MakeItSo-Manda";
+			packageProductDependencies = (
+				02247510309DEF1D004194E5 /* FirebaseAnalytics */,
+				02247512309DEF1D004194E5 /* FirebaseAuth */,
+				02247514309DEF1D004194E5 /* FirebaseFirestore */,
+			);
 			productName = "MakeItSo-Manda";
 			productReference = 022474CE309D8F73004194E5 /* MakeItSo-Manda.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +166,9 @@
 			);
 			mainGroup = 022474C5309D8F73004194E5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0224750F309DEF1D004194E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 022474C5309D8F73004194E5;
 			projectDirPath = "";
@@ -519,6 +536,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0224750F309DEF1D004194E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02247510309DEF1D004194E5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0224750F309DEF1D004194E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		02247512309DEF1D004194E5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0224750F309DEF1D004194E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		02247514309DEF1D004194E5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0224750F309DEF1D004194E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 022474C6309D8F73004194E5 /* Project object */;
 	validationLevel = 1;
