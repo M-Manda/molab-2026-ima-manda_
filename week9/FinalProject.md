@@ -28,6 +28,9 @@ Each day the app gives you a new vocabulary word. You add a picture or photo tha
 - Sign in and keep your own entries
 - If you choose to share, other users can see your entries
 
+### Add widgets
+### Traditional mongolilan script
+
 ## Built With
 - SwiftUI
 - Camera and photo editing (class samples and WWDC "Meet PaperKit")
