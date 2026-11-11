@@ -34,7 +34,7 @@ struct RemindersListRowView_Previews: PreviewProvider {
         NavigationStack {
             Container()
                 .listStyle(.plain)
-                .navigationTitle("Vocabs")
+                .navigationTitle("Reminders")
         }
     }
 }

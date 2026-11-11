@@ -30,9 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022474CE309D8F73004194E5 /* MakeItSo-Manda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MakeItSo-Manda.app"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-Manda.app"; sourceTree = "<absolute>"; };
 		022474DB309D8F75004194E5 /* MakeItSo-MandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MakeItSo-MandaTests.xctest"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-Manda.app/PlugIns/MakeItSo-MandaTests.xctest"; sourceTree = "<absolute>"; };
 		022474E5309D8F75004194E5 /* MakeItSo-MandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MakeItSo-MandaUITests.xctest"; path = "/Users/uurdmandakhmunkhbayar/Documents/GitHub/molab-2026-ima-manda/molab-2026-ima-manda_/week9/MakeItSo-Manda/build/Debug-iphoneos/MakeItSo-MandaUITests-Runner.app/PlugIns/MakeItSo-MandaUITests.xctest"; sourceTree = "<absolute>"; };
+		02247540309E1D81004194E5 /* MakeItSo-Manda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MakeItSo-Manda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				022474D0309D8F73004194E5 /* MakeItSo-Manda */,
+				02247540309E1D81004194E5 /* MakeItSo-Manda.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +96,7 @@
 				02247514309DEF1D004194E5 /* FirebaseFirestore */,
 			);
 			productName = "MakeItSo-Manda";
-			productReference = 022474CE309D8F73004194E5 /* MakeItSo-Manda.app */;
+			productReference = 02247540309E1D81004194E5 /* MakeItSo-Manda.app */;
 			productType = "com.apple.product-type.application";
 		};
 		022474DA309D8F75004194E5 /* MakeItSo-MandaTests */ = {
@@ -367,6 +368,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

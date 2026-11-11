@@ -29,8 +29,9 @@ Each day the app gives you a new vocabulary word. You add a picture or photo tha
 - If you choose to share, other users can see your entries
 
 ### Voice recorder
-### Add widgetss
+### Add widgets
 ### Traditional mongolilan script
+### Look into journaling suggestion
 
 ## Built With
 - SwiftUI
