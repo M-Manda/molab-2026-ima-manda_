@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct VocabModel: Codable {
-    var items: [DayEntry] // declaring a variable named items that stores array of DayEntry objects
+    var items: [DayEntry] = [] // declaring a variable named items that stores array of DayEntry objects
     
     init() {
         items = [] // innitialize items as empty array when object is created
@@ -18,7 +18,7 @@ struct VocabModel: Codable {
         items.append(item)
     }
     
-    mutating func updatedItem(item: DayEntry) {
+    mutating func updateItem(item: DayEntry) {
         if let index = findIndex(item.id) { // find the object with same id
             items[index] = item // update to the new version
         }
@@ -30,7 +30,7 @@ struct VocabModel: Codable {
     
     // Finds the entry for a given day. Nil if there isn't one
     func findEntry(date: Date) -> DayEntry? {
-        return items.first { item in Calendar.current.isDate(item.date, inSameDayAs: <#T##Date#>) }
+        return items.first { item in Calendar.current.isDate(item.date, inSameDayAs: date) }
     }
     
 }
