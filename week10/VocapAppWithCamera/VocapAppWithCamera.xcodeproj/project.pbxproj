@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0232AA1330938B0E00709B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0232A9FD30938B0D00709B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0232AA0430938B0D00709B32;
+			remoteInfo = VocapAppWithCamera;
+		};
+		0232AA1D30938B0E00709B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0232A9FD30938B0D00709B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0232AA0430938B0D00709B32;
+			remoteInfo = VocapAppWithCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0232AA0530938B0D00709B32 /* VocapAppWithCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocapAppWithCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0232AA1230938B0E00709B32 /* VocapAppWithCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocapAppWithCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0232AA1C30938B0E00709B32 /* VocapAppWithCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocapAppWithCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0232AA793094333000709B32 /* Exceptions for "VocapAppWithCamera" folder in "VocapAppWithCamera" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0232AA0430938B0D00709B32 /* VocapAppWithCamera */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0232AA0730938B0D00709B32 /* VocapAppWithCamera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0232AA793094333000709B32 /* Exceptions for "VocapAppWithCamera" folder in "VocapAppWithCamera" target */,
+			);
+			path = VocapAppWithCamera;
+			sourceTree = "<group>";
+		};
+		0232AA1530938B0E00709B32 /* VocapAppWithCameraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VocapAppWithCameraTests;
+			sourceTree = "<group>";
+		};
+		0232AA1F30938B0E00709B32 /* VocapAppWithCameraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VocapAppWithCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0232AA0230938B0D00709B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0232AA0F30938B0E00709B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0232AA1930938B0E00709B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0232A9FC30938B0D00709B32 = {
+			isa = PBXGroup;
+			children = (
+				0232AA0730938B0D00709B32 /* VocapAppWithCamera */,
+				0232AA1530938B0E00709B32 /* VocapAppWithCameraTests */,
+				0232AA1F30938B0E00709B32 /* VocapAppWithCameraUITests */,
+				0232AA0630938B0D00709B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0232AA0630938B0D00709B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0232AA0530938B0D00709B32 /* VocapAppWithCamera.app */,
+				0232AA1230938B0E00709B32 /* VocapAppWithCameraTests.xctest */,
+				0232AA1C30938B0E00709B32 /* VocapAppWithCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0232AA0430938B0D00709B32 /* VocapAppWithCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0232AA2430938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCamera" */;
+			buildPhases = (
+				0232AA0130938B0D00709B32 /* Sources */,
+				0232AA0230938B0D00709B32 /* Frameworks */,
+				0232AA0330938B0D00709B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				0232AA0730938B0D00709B32 /* VocapAppWithCamera */,
+			);
+			name = VocapAppWithCamera;
+			productName = VocapAppWithCamera;
+			productReference = 0232AA0530938B0D00709B32 /* VocapAppWithCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0232AA1130938B0E00709B32 /* VocapAppWithCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0232AA2730938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCameraTests" */;
+			buildPhases = (
+				0232AA0E30938B0E00709B32 /* Sources */,
+				0232AA0F30938B0E00709B32 /* Frameworks */,
+				0232AA1030938B0E00709B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0232AA1430938B0E00709B32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0232AA1530938B0E00709B32 /* VocapAppWithCameraTests */,
+			);
+			name = VocapAppWithCameraTests;
+			productName = VocapAppWithCameraTests;
+			productReference = 0232AA1230938B0E00709B32 /* VocapAppWithCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0232AA1B30938B0E00709B32 /* VocapAppWithCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0232AA2A30938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCameraUITests" */;
+			buildPhases = (
+				0232AA1830938B0E00709B32 /* Sources */,
+				0232AA1930938B0E00709B32 /* Frameworks */,
+				0232AA1A30938B0E00709B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0232AA1E30938B0E00709B32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0232AA1F30938B0E00709B32 /* VocapAppWithCameraUITests */,
+			);
+			name = VocapAppWithCameraUITests;
+			productName = VocapAppWithCameraUITests;
+			productReference = 0232AA1C30938B0E00709B32 /* VocapAppWithCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0232A9FD30938B0D00709B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0232AA0430938B0D00709B32 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					0232AA1130938B0E00709B32 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 0232AA0430938B0D00709B32;
+					};
+					0232AA1B30938B0E00709B32 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 0232AA0430938B0D00709B32;
+					};
+				};
+			};
+			buildConfigurationList = 0232AA0030938B0D00709B32 /* Build configuration list for PBXProject "VocapAppWithCamera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0232A9FC30938B0D00709B32;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0232AA0630938B0D00709B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0232AA0430938B0D00709B32 /* VocapAppWithCamera */,
+				0232AA1130938B0E00709B32 /* VocapAppWithCameraTests */,
+				0232AA1B30938B0E00709B32 /* VocapAppWithCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0232AA0330938B0D00709B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0232AA1030938B0E00709B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0232AA1A30938B0E00709B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0232AA0130938B0D00709B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0232AA0E30938B0E00709B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0232AA1830938B0E00709B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0232AA1430938B0E00709B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0232AA0430938B0D00709B32 /* VocapAppWithCamera */;
+			targetProxy = 0232AA1330938B0E00709B32 /* PBXContainerItemProxy */;
+		};
+		0232AA1E30938B0E00709B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0232AA0430938B0D00709B32 /* VocapAppWithCamera */;
+			targetProxy = 0232AA1D30938B0E00709B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0232AA2230938B0E00709B32 /* Debug configuration for PBXProject "VocapAppWithCamera" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0232AA2330938B0E00709B32 /* Release configuration for PBXProject "VocapAppWithCamera" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0232AA2530938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCamera" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocapAppWithCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo for today's word";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0232AA2630938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCamera" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocapAppWithCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo for today's word";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0232AA2830938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCameraTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocapAppWithCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocapAppWithCamera";
+			};
+			name = Debug;
+		};
+		0232AA2930938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCameraTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocapAppWithCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocapAppWithCamera";
+			};
+			name = Release;
+		};
+		0232AA2B30938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCameraUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocapAppWithCamera;
+			};
+			name = Debug;
+		};
+		0232AA2C30938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCameraUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 784W2U68W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uurdmandakhmts-gmail.com.VocapAppWithCameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocapAppWithCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0232AA0030938B0D00709B32 /* Build configuration list for PBXProject "VocapAppWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0232AA2230938B0E00709B32 /* Debug configuration for PBXProject "VocapAppWithCamera" */,
+				0232AA2330938B0E00709B32 /* Release configuration for PBXProject "VocapAppWithCamera" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0232AA2430938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0232AA2530938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCamera" */,
+				0232AA2630938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCamera" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0232AA2730938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0232AA2830938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCameraTests" */,
+				0232AA2930938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCameraTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0232AA2A30938B0E00709B32 /* Build configuration list for PBXNativeTarget "VocapAppWithCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0232AA2B30938B0E00709B32 /* Debug configuration for PBXNativeTarget "VocapAppWithCameraUITests" */,
+				0232AA2C30938B0E00709B32 /* Release configuration for PBXNativeTarget "VocapAppWithCameraUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0232A9FD30938B0D00709B32 /* Project object */;
+	validationLevel = 1;
+}
