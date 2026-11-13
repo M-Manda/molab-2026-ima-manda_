@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 
 struct CameraPicker: UIViewControllerRepresentable { // lets SwiftUI show a UIKit screen
-    var onCapture: (UIIMage) -> Void // what to do with the photo. TodayVocabView decides
+    var onCapture: (UIImage) -> Void // what to do with the photo. TodayVocabView decides
     @Environment(\.dismiss) var dismiss // closes this screen
     
     // SwiftUI calls this once to make the UIKit screen
