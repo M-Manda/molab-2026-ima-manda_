@@ -10,7 +10,7 @@ import SwiftUI
 struct CalendarView: View {
     @Environment(VocabDocument.self) var document
     
-    var body: some view {
+    var body: some  View {
         Text("Calendar goes here")
             .navigationTitle("Calendar")
     }
