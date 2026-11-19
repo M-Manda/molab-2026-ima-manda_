@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import UIKit // for UIImage
 
 // The screen around the drawing canvas cancel done buttons
-struct PhotoEditorView: View {
-    @Environment(VocabDocument.self) var document
-    @Environment(\.dismiss) var dismiss
+struct PhotoEditorView: View { // View = this struct conforms to the SwiftUI View protocol
+    @Environment(VocabDocument.self) var document // Gets the shared VocabDocument from the SwiftUI environment
+    @Environment(\.dismiss) var dismiss // dismiss() lets you close the current screen
     let image: UIImage // the photo to draw on, from TodayVocabView
     @State private var editorModel = MarkupEditorModel() // lets Done reach the drawing (see MarkupEditor.swift)
 
