@@ -11,7 +11,7 @@ struct DayEntry: Identifiable, Codable {
     var id = UUID()
     var date = Date() // creates a value holding the exact moment the code runs
     var word: String = "" // the vocab word for that day
-    var imageData: Data? = nil // the photo's raw bytes (original)
-    var filteredData: Data? = nil // the photo after a filter, nil = no filter saved
+    var imageFile: String? = nil // 2026-11-13.jpg
+    var filteredFile: String? = nil // 2026-11-13-edited.jpg, nil = not edited
     var showTime: Bool = true
 }

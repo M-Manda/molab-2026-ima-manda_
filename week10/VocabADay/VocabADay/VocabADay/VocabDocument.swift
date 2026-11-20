@@ -35,13 +35,15 @@ class VocabDocument { // struct gets copied and drifts appart. class is shared s
     }
     
     func saveImage(data: Data, date: Date, word: String) {
+        let name = fileName(for: date) + ".jpg"
+        saveImageFile(data: data, fileName: name) // the photo goes to its own file
         if var entry = model.findEntry(date: date) { // if this day already has an entry, replace its photo
-            entry.imageData = data
-            entry.filteredData = nil // old filter no longer matches the new photo
+            entry.imageFile = name
+            entry.filteredFile = nil // old filter no longer matches the new photo
             entry.date = date // update the time stamp
             updateItem(item: entry)
         } else { // if there is no entry for this day yet, make a new one
-            let entry = DayEntry(date: date, word: word, imageData: data)
+            let entry = DayEntry(date: date, word: word, imageFile: name)
             addItem(item: entry)
         }
     }
@@ -49,7 +51,9 @@ class VocabDocument { // struct gets copied and drifts appart. class is shared s
     // makes sence only when entry already exists
     func saveFilteredImage(data: Data, date: Date) {
         if var entry = model.findEntry(date: date) {
-            entry.filteredData = data
+            let name = fileName(for: date) + "-edited.jpg"
+            saveImageFile(data: data, fileName: name)
+            entry.filteredFile = name
             updateItem(item: entry)
         }
     }
@@ -65,7 +69,8 @@ class VocabDocument { // struct gets copied and drifts appart. class is shared s
     // Get a picture back out
     func uiImageFor(date: Date) -> UIImage? {
         guard let entry = model.findEntry(date: date) else { return nil } // guard = make sure this exists. If it doesn't leave the function now
-        guard let data = entry.filteredData ?? entry.imageData else { return nil }
+        guard let name = entry.filteredFile ?? entry.imageFile else { return nil } // edited one if it exists, else original
+        guard let data = loadImageFile(fileName: name) else {return nil} // read the file
         return UIImage(data: data)
     }
     
@@ -74,4 +79,9 @@ class VocabDocument { // struct gets copied and drifts appart. class is shared s
         return Image(uiImage: uiImage)
     }
     
+    func fileName(for date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd" // mm = minutes, so it must be capital
+        return formatter.string(from: date)
+    }
 }

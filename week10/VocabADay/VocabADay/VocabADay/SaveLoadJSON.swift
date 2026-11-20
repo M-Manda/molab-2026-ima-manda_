@@ -50,3 +50,19 @@ func remove(fileName: String) {
         print("remove error", error)
     }
 }
+
+// photo bytes -> file in document. files are in .jpg
+func saveImageFile(data: Data, fileName: String) {
+    do {
+        let filePath = try documentPath(fileName: fileName)
+        try data.write(to: filePath)
+    } catch {
+        print("saveImageFile error", error)
+    }
+}
+
+// file in Document -> photo bytes. nil if the file isn't there
+func loadImageFile(fileName: String) -> Data? {
+    guard let filePath = try? documentPath(fileName: fileName) else {return nil}
+    return try? Data(contentsOf: filePath)
+}
