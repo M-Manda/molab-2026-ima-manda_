@@ -13,12 +13,11 @@ struct PhotoEditorView: View { // View = this struct conforms to the SwiftUI Vie
     @Environment(VocabDocument.self) var document // Gets the shared VocabDocument from the SwiftUI environment
     @Environment(\.dismiss) var dismiss // dismiss() lets you close the current screen
     let image: UIImage // the photo to draw on, from TodayVocabView
-    @State private var editorModel = MarkupEditorModel() // lets Done reach the drawing (see MarkupEditor.swift)
+    @State private var editorModel = MarkupEditorModel() // lets Done reach the drawing (MarkupEditor.swift)
 
     var body: some View {
-        NavigationStack { // NavigationStack only so the toolbar has a bar to sit in
+        NavigationStack {
             MarkupEditor(image: image, model: editorModel)
-                .ignoresSafeArea(edges: .bottom)
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button("Cancel") { dismiss() } // close without saving

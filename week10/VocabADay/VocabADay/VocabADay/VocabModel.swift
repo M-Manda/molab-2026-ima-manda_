@@ -10,10 +10,6 @@ import SwiftUI
 struct VocabModel: Codable {
     var items: [DayEntry] = [] // declaring a variable named items that stores array of DayEntry objects
     
-    init() {
-        items = [] // innitialize items as empty array when object is created
-    } // I feel like this is unnecessary. I feel like I can just make an object when there is something to add, so it's never empty, an it always has something
-    
     mutating func addItem(item: DayEntry) {
         items.append(item)
     }
