@@ -46,7 +46,7 @@ struct TodayVocabView: View {
                 Button {
                     showCamera = true
                 } label: {
-                    Label("Take a picture", systemImage: "camera")
+                    Label("Take a picture")
                 }
                 .disabled(!UIImagePickerController.isSourceTypeAvailable(.camera)) // simulator has no camera, it would crash
                 
@@ -54,14 +54,14 @@ struct TodayVocabView: View {
                 Button {
                     showEditor = true
                 } label: {
-                    Label("Draw", systemImage: "pencil.tip")
+                    Label("Draw")
                 }
                 .disabled(document.imageFor(date: Date()) == nil) // nothing to draw on yet
 
                 Spacer()
 
                 PhotosPicker(selection: $selectedItem, matching: .images) {
-                    Label("Add a picture", systemImage: "photo")
+                    Label("Add a picture")
                 }
                 .onChange(of: selectedItem, loadImage) // when selectedItem changes, run loadImage
             }
