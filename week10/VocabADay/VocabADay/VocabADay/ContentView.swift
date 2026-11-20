@@ -14,12 +14,12 @@ struct ContentView: View {
                 NavigationLink {
                     TodayVocabView()
                 } label: {
-                    Label("Today's Vocab")
+                    Text("Today's Vocab")
                 }
                 NavigationLink {
                     CalendarView()
                 } label: {
-                    Label("Calendar")
+                    Text("Calendar")
                 }
             }
             .navigationTitle("Vocab a Day")

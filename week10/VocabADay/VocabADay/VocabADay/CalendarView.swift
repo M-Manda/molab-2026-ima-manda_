@@ -41,7 +41,7 @@ struct CalendarView: View {
             }
 
             LazyVGrid(columns: columns) {
-                ForEach(0..<7, id: \.self) { i in
+                ForEach(calendar.shortWeekdaySymbols, id: \.self) { i in
                     Text(calendar.shortWeekdaySymbols[i]).font(.caption).foregroundStyle(.gray)
                 }
                 ForEach(-blanks..<dayCount, id: \.self) { n in // -2, -1, 0, 1, ... 30
