@@ -17,8 +17,8 @@ struct CalendarView: View {
 
     let calendar = Calendar.current
     let columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
+        GridItem(.flexible()), // GridItem = one column or row in a grid
+        GridItem(.flexible()), // .flexible() = can expand or srhink to share available space
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -27,13 +27,17 @@ struct CalendarView: View {
     ] // 7 columns = 7 weekdays
 
     var body: some View {
-        let monthStart = calendar.dateInterval(of: .month, for: selectedDate)!.start // Dec 1
-        let dayCount = calendar.range(of: .day, in: .month, for: selectedDate)!.count // 31
-        let blanks = calendar.component(.weekday, from: monthStart) - 1 // Tuesday(3) - 1 = 2
+        let monthStart = calendar.dateInterval(of: .month, for: selectedDate)!.start // first moment of the selected month
+        let dayCount = calendar.range(of: .day, in: .month, for: selectedDate)!.count // calculating number of days
+        let blanks = calendar.component(.weekday, from: monthStart) - 1 // calculating emtpy cells before day 1
 
         VStack {
             HStack { // < December 2026 >
                 Button("<") { selectedDate = calendar.date(byAdding: .month, value: -1, to: selectedDate)! }
+                // byAdding = tellc the calendar to add or subtract a date component
+                // .month = the component is month
+                // value: -1 = subtract one month
+                // to: start from the currently selected date
                 Spacer()
                 Text(selectedDate.formatted(.dateTime.month(.wide).year())).font(.title2).bold()
                 Spacer()
@@ -41,8 +45,8 @@ struct CalendarView: View {
             }
 
             LazyVGrid(columns: columns) {
-                ForEach(calendar.shortWeekdaySymbols, id: \.self) { i in
-                    Text(calendar.shortWeekdaySymbols[i]).font(.caption).foregroundStyle(.gray)
+                ForEach(calendar.shortWeekdaySymbols, id: \.self) { name in
+                    Text(name).font(.caption).foregroundStyle(.gray)
                 }
                 ForEach(-blanks..<dayCount, id: \.self) { n in // -2, -1, 0, 1, ... 30
                     if n < 0 {
